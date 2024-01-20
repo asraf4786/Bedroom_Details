@@ -1,0 +1,6 @@
+GET http://localhost:8080/
+
+GET http://api.mlsassistant.app/Property?%24filter=BedroomsTotal%20ge%201&%24skip=10
+
+###
+POST http://api.mlsassistant.app/Property?%24filter=BedroomsTotal%20ge%201&%24skip=10
